@@ -1,0 +1,95 @@
+---
+import '../styles/global.css';
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogTitle?: string;
+  ogDesc?: string;
+  breadcrumb?: BreadcrumbItem[];
+  faqSchema?: FaqItem[];
+  preloadHero?: boolean;
+}
+
+const { title, description, canonical, ogTitle, ogDesc, breadcrumb, faqSchema, preloadHero } = Astro.props;
+
+const churchSchema = {
+  "@context": "https://schema.org",
+  "@type": "Church",
+  "name": "[CHURCH NAME]",
+  "url": "https://reformedchurchmaui.com",
+  "description": "A confessional Reformed church plant on Maui, Hawaii. A mission work of the Orthodox Presbyterian Church.",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Maui, Hawaii"
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Orthodox Presbyterian Church",
+    "url": "https://opc.org"
+  },
+  "sameAs": ["https://opc.org"]
+};
+
+const breadcrumbSchema = breadcrumb ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://reformedchurchmaui.com/" },
+    ...breadcrumb.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 2,
+      "name": item.name,
+      "item": item.url
+    }))
+  ]
+} : null;
+
+const faqPageSchema = faqSchema ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqSchema.map(f => ({
+    "@type": "Question",
+    "name": f.question,
+    "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+  }))
+} : null;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="US-HI" />
+  <meta name="geo.placename" content="Maui, Hawaii" />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:title" content={ogTitle ?? title} />
+  <meta property="og:description" content={ogDesc ?? description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  {preloadHero && <link rel="preload" as="image" href="/images/hero.jpg" fetchpriority="high" />}
+  <script type="application/ld+json" set:html={JSON.stringify(churchSchema)} />
+  {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
+  {faqPageSchema && <script type="application/ld+json" set:html={JSON.stringify(faqPageSchema)} />}
+</head>
+<body class="bg-[#F5F0E8] text-[#111318]">
+  <slot />
+</body>
+</html>

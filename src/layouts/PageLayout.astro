@@ -1,0 +1,37 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  h1: string;
+  ogTitle?: string;
+  ogDesc?: string;
+  breadcrumb?: BreadcrumbItem[];
+  faqSchema?: FaqItem[];
+}
+
+const { title, description, canonical, h1, ogTitle, ogDesc, breadcrumb, faqSchema } = Astro.props;
+---
+
+<BaseLayout {title} {description} {canonical} {ogTitle} {ogDesc} {breadcrumb} {faqSchema}>
+  <Header />
+  <main class="max-w-3xl mx-auto px-6 py-16">
+    <h1 class="font-serif text-4xl font-bold text-[#1E2A3A] mb-8">{h1}</h1>
+    <slot />
+  </main>
+  <Footer />
+</BaseLayout>

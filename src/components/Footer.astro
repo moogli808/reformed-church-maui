@@ -1,0 +1,45 @@
+---
+const navLinks = [
+  { label: 'What we believe', href: '/what-we-believe/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Visit', href: '/visit/' },
+  { label: 'Reformed Church Maui', href: '/reformed-church-maui/' },
+  { label: 'Presbyterian Church Maui', href: '/presbyterian-church-maui/' },
+  { label: 'Connect', href: '/connect/' },
+];
+---
+
+<footer class="bg-[#111318] text-[#B4B2A9]">
+  <div class="max-w-6xl mx-auto px-6 py-14 grid md:grid-cols-2 gap-12">
+    <!-- Left col -->
+    <div>
+      <p class="text-[#F5F0E8] font-serif text-lg font-bold mb-3">[CHURCH NAME]</p>
+      <p class="text-sm mb-3">A mission work of the Orthodox Presbyterian Church</p>
+      <p class="text-sm mb-3">
+        Sister congregation:
+        <a href="https://redeemerhawaii.org" class="text-[#C4A35A] hover:underline" target="_blank" rel="noopener">
+          Redeemer OPC, Waipahu, Oahu
+        </a>
+      </p>
+      <a href="mailto:[CHRIS_EMAIL]" class="text-sm text-[#C4A35A] hover:underline">[CHRIS_EMAIL]</a>
+    </div>
+
+    <!-- Right col -->
+    <div>
+      <p class="text-[#F5F0E8] text-sm font-semibold mb-4 uppercase tracking-widest">Pages</p>
+      <ul class="space-y-2">
+        {navLinks.map(link => (
+          <li>
+            <a href={link.href} class="text-sm hover:text-[#F5F0E8] transition-colors">
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-[#222932] px-6 py-4 max-w-6xl mx-auto">
+    <p class="text-xs text-[#5F5E5A]">&copy; {new Date().getFullYear()} [CHURCH NAME]. Maui, Hawaii.</p>
+  </div>
+</footer>

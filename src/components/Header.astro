@@ -1,0 +1,64 @@
+---
+const navLinks = [
+  { label: 'What we believe', href: '/what-we-believe/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Visit', href: '/visit/' },
+];
+---
+
+<header class="bg-[#1E2A3A] sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
+    <!-- Logo -->
+    <a href="/" class="text-[#F5F0E8] font-serif text-lg font-bold tracking-wide hover:text-[#C4A35A] transition-colors">
+      [CHURCH NAME]
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex items-center gap-8">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class="text-[#B4B2A9] text-sm hover:text-[#F5F0E8] transition-colors"
+        >
+          {link.label}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Desktop CTA -->
+    <a
+      href="/connect/"
+      class="hidden md:inline-block bg-[#C4A35A] text-[#1E2A3A] text-sm font-semibold px-4 py-2 rounded hover:bg-[#d4b36a] transition-colors"
+    >
+      Get connected
+    </a>
+
+    <!-- Mobile hamburger (checkbox hack, no JS) -->
+    <label for="menu-toggle" class="md:hidden cursor-pointer text-[#F5F0E8] p-2" aria-label="Toggle menu">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <rect y="3" width="22" height="2" rx="1" fill="currentColor"/>
+        <rect y="10" width="22" height="2" rx="1" fill="currentColor"/>
+        <rect y="17" width="22" height="2" rx="1" fill="currentColor"/>
+      </svg>
+    </label>
+  </div>
+
+  <!-- Mobile menu (CSS toggle) -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer/menu" />
+  <nav class="hidden peer-checked/menu:block md:hidden bg-[#1E2A3A] border-t border-[#2e3f55] px-6 pb-4">
+    {navLinks.map(link => (
+      <a
+        href={link.href}
+        class="block py-3 text-[#B4B2A9] hover:text-[#F5F0E8] transition-colors border-b border-[#2e3f55]"
+      >
+        {link.label}
+      </a>
+    ))}
+    <a
+      href="/connect/"
+      class="block mt-4 bg-[#C4A35A] text-[#1E2A3A] font-semibold text-sm px-4 py-2 rounded text-center hover:bg-[#d4b36a] transition-colors"
+    >
+      Get connected
+    </a>
+  </nav>
+</header>

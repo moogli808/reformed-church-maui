@@ -1,0 +1,71 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const faqs = [
+  {
+    question: 'Is there an OPC church on Maui?',
+    answer: 'Not yet, but we\'re planting one now — the first confessional OPC mission work on the island.',
+  },
+  {
+    question: 'Where\'s the nearest Presbyterian church to Maui right now?',
+    answer: 'Redeemer OPC in Waipahu, Oahu, has been the nearest congregation. We\'re changing that by planting on Maui.',
+  },
+  {
+    question: 'Can I get involved before the church officially launches?',
+    answer: 'Yes — we\'re building community now, before our first service. Reach out through the connect page and we\'ll keep you updated.',
+  },
+];
+---
+
+<PageLayout
+  title="Is There a Reformed Church on Maui? | [CHURCH NAME]"
+  description="Until now, there has been no confessional Reformed or OPC church on Maui, Hawaii. That's changing — here's what we're building and how to get connected."
+  canonical="https://reformedchurchmaui.com/is-there-a-reformed-church-on-maui/"
+  h1="Is There a Reformed Church on Maui?"
+  breadcrumb={[{ name: 'Is There a Reformed Church on Maui?', url: 'https://reformedchurchmaui.com/is-there-a-reformed-church-on-maui/' }]}
+  faqSchema={faqs}
+>
+  <p class="text-[#5F5E5A] text-base leading-relaxed mb-10">
+    Not yet — but that's changing. We're planting the first confessional Reformed church on the island, a mission work of the Orthodox Presbyterian Church. Here's where things stand.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">Why the search comes up empty</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    Maui has evangelical, Catholic, and mainline Protestant churches — but nothing confessional Reformed has existed here until now. For the full story of that gap and why it matters, see <a href="/reformed-church-maui/" class="text-[#C4A35A] hover:underline">Reformed Church Maui</a>.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">What's changing</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    We're that church. For more on who's behind this plant and the vision driving it, see <a href="/about/" class="text-[#C4A35A] hover:underline">About</a>.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">When do we launch?</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-10">
+    Services have not yet begun. We're in the church plant phase, gathering a community of interested people and preparing for our launch. Sign up below to be notified when we hold our first service.
+  </p>
+
+  <!-- FAQ -->
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-6">Common questions from people searching</h2>
+  <div class="space-y-8 mb-12">
+    {faqs.map(faq => (
+      <div class="border-t border-[#D3D1C7] pt-6">
+        <h3 class="font-serif text-lg font-bold text-[#1E2A3A] mb-2">{faq.question}</h3>
+        <p class="text-[#5F5E5A] leading-relaxed">{faq.answer}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="border-t border-[#D3D1C7] pt-10">
+    <div class="flex flex-wrap gap-4">
+      <a href="/connect/" class="inline-block bg-[#C4A35A] text-[#1E2A3A] font-semibold px-6 py-3 rounded hover:bg-[#d4b36a] transition-colors">
+        Get connected &rarr;
+      </a>
+      <a href="/reformed-church-maui/" class="inline-block border border-[#1E2A3A] text-[#1E2A3A] font-semibold px-6 py-3 rounded hover:bg-[#1E2A3A]/5 transition-colors">
+        Reformed Church Maui
+      </a>
+      <a href="/about/" class="inline-block border border-[#1E2A3A] text-[#1E2A3A] font-semibold px-6 py-3 rounded hover:bg-[#1E2A3A]/5 transition-colors">
+        About
+      </a>
+    </div>
+  </div>
+</PageLayout>

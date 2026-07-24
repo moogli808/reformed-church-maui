@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import HeroSection from '../components/HeroSection.astro';
+import SectionCard from '../components/SectionCard.astro';
+import CTABanner from '../components/CTABanner.astro';
+
+const cards = [
+  {
+    label: 'Preaching',
+    heading: 'Biblical preaching',
+    body: 'Sermons grounded in the whole counsel of God, working carefully through Scripture week by week.',
+  },
+  {
+    label: 'Confession',
+    heading: 'Historic Reformed worship',
+    body: 'We hold to the Westminster Confession of Faith, the confessional standard of the OPC and Reformed churches worldwide.',
+  },
+  {
+    label: 'Community',
+    heading: 'Real community',
+    body: 'We’re building a church, not launching a program — people who know each other, pray together, and belong to one another.',
+  },
+  {
+    label: 'Place',
+    heading: 'Committed to Maui',
+    body: 'There is no confessional Reformed church on Maui. We’re here to change that.',
+  },
+];
+---
+
+<BaseLayout
+  title="Church Maui | [CHURCH NAME]"
+  description="A confessional Reformed church coming to Maui, Hawaii. OPC church plant serving all of Maui. Get connected today."
+  canonical="https://reformedchurchmaui.com/"
+  preloadHero={true}
+>
+  <Header />
+
+  <HeroSection
+    eyebrow="A church plant on Maui, Hawaii"
+    heading="A Reformed Church Coming to Maui, Hawaii"
+    subheading="Rooted in Scripture. Shaped by the historic Reformed faith. Launching on Maui."
+    primaryCta={{ label: 'Get connected', href: '/connect/' }}
+    secondaryCta={{ label: 'What we believe', href: '/what-we-believe/' }}
+    trustLine="A mission work of the "
+    trustLinkHref="https://opc.org"
+    trustLinkLabel="Orthodox Presbyterian Church"
+  />
+
+  <!-- Why this church, why now -->
+  <section class="bg-[#EDE8DF] py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-[#C4A35A] text-xs font-semibold uppercase tracking-widest mb-3 text-center">Planting a church on Maui</p>
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#1E2A3A] mb-6 text-center">Why this church, why now</h2>
+      <p class="text-[#5F5E5A] text-base max-w-2xl mx-auto text-center mb-12">
+        There is no confessional Reformed church on Maui. The nearest OPC congregation is
+        <a href="https://redeemerhawaii.org" class="text-[#C4A35A] hover:underline" target="_blank" rel="noopener">Redeemer OPC on Oahu</a>.
+        We&rsquo;re planting a church grounded in the Westminster Standards, committed to biblical worship, and rooted in this community.
+      </p>
+      <div class="grid sm:grid-cols-2 gap-6">
+        {cards.map(card => (
+          <SectionCard label={card.label} heading={card.heading} body={card.body} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Is there a Reformed church on Maui? -->
+  <section class="bg-[#1E2A3A] py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-[#C4A35A] text-xs font-semibold uppercase tracking-widest mb-4">Is there a Reformed church on Maui?</p>
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#F5F0E8] mb-6">Until now, no.</h2>
+      <p class="text-[#B4B2A9] text-base mb-8">
+        If you&rsquo;ve been searching for OPC or confessional Presbyterian worship on Maui and coming up empty &mdash; this is what&rsquo;s coming.
+        We&rsquo;d love to be in touch now, before our first service.
+      </p>
+      <a href="/what-we-believe/" class="text-[#C4A35A] hover:underline font-semibold">
+        Learn what we believe &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Stay connected form -->
+  <CTABanner
+    eyebrow="Stay connected"
+    heading="Be part of this from the beginning"
+    body="We're forming community now, before our first service. If you're on Maui and looking for Reformed worship, we'd love to be in touch."
+    formId="mnjeoagy"
+  />
+
+  <Footer />
+</BaseLayout>

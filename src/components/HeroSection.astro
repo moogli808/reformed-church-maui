@@ -1,0 +1,54 @@
+---
+interface Props {
+  eyebrow: string;
+  heading: string;
+  subheading: string;
+  primaryCta: { label: string; href: string };
+  secondaryCta: { label: string; href: string };
+  trustLine: string;
+  trustLinkHref: string;
+  trustLinkLabel: string;
+}
+
+const { eyebrow, heading, subheading, primaryCta, secondaryCta, trustLine, trustLinkHref, trustLinkLabel } = Astro.props;
+---
+
+<section
+  class="relative min-h-[90vh] flex items-center"
+  style="background-image: url('/images/hero.jpg'); background-size: cover; background-position: center;"
+  aria-label="Hero"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-[#1E2A3A]/80"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 max-w-4xl mx-auto px-6 py-24 text-center">
+    <p class="text-[#C4A35A] text-xs font-semibold uppercase tracking-widest mb-4">{eyebrow}</p>
+    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-[#F5F0E8] leading-tight mb-6">
+      {heading}
+    </h1>
+    <p class="text-[#B4B2A9] text-base sm:text-lg max-w-2xl mx-auto mb-10">
+      {subheading}
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+      <a
+        href={primaryCta.href}
+        class="bg-[#C4A35A] text-[#1E2A3A] font-semibold px-8 py-3 rounded hover:bg-[#d4b36a] transition-colors"
+      >
+        {primaryCta.label}
+      </a>
+      <a
+        href={secondaryCta.href}
+        class="border border-[#F5F0E8] text-[#F5F0E8] font-semibold px-8 py-3 rounded hover:bg-[#F5F0E8]/10 transition-colors"
+      >
+        {secondaryCta.label}
+      </a>
+    </div>
+    <p class="text-[#5F5E5A] text-sm">
+      {trustLine}
+      <a href={trustLinkHref} class="text-[#B4B2A9] hover:text-[#F5F0E8] underline" target="_blank" rel="noopener">
+        {trustLinkLabel}
+      </a>
+    </p>
+  </div>
+</section>

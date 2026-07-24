@@ -1,0 +1,104 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const faqs = [
+  {
+    question: 'Is the OPC the same as the Presbyterian Church?',
+    answer: 'Not exactly. There are several Presbyterian denominations in the US. The OPC (Orthodox Presbyterian Church) and PCA (Presbyterian Church in America) are confessional Reformed denominations holding to the Westminster Standards. The PCUSA (Presbyterian Church USA) is a mainline denomination that has departed from historic Presbyterian doctrine. We are OPC.',
+  },
+  {
+    question: 'Do you have to be Reformed to attend?',
+    answer: 'Not at all. Visitors are always welcome regardless of where they are theologically. If you\'re curious about Reformed worship, come and see.',
+  },
+  {
+    question: 'What Bible translation do you use?',
+    answer: 'OPC churches typically use the ESV or NASB. We\'ll confirm our translation once services begin.',
+  },
+  {
+    question: 'Is Reformed theology the same as Calvinist?',
+    answer: 'Yes, essentially. "Calvinist" and "Reformed" are often used interchangeably, referring to the theological tradition that flows from the Protestant Reformation — particularly the conviction that salvation is entirely God\'s gracious work.',
+  },
+];
+---
+
+<PageLayout
+  title="What We Believe | [CHURCH NAME]"
+  description="We hold to the Westminster Confession of Faith and the historic Reformed faith. Learn what an OPC church believes and what to expect on Sunday."
+  canonical="https://reformedchurchmaui.com/what-we-believe/"
+  h1="What We Believe"
+  breadcrumb={[{ name: 'What We Believe', url: 'https://reformedchurchmaui.com/what-we-believe/' }]}
+  faqSchema={faqs}
+>
+  <p class="text-[#5F5E5A] text-base leading-relaxed mb-10">
+    Our beliefs are rooted in the historic Christian faith as summarized in the Westminster Confession of Faith. Whether you've been in a Reformed church your whole life or you're hearing these terms for the first time, here's what we believe and why it matters.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">The Bible</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    We believe the Bible is the inspired, inerrant Word of God — the final authority for faith and life. Everything we believe and practice is grounded in and accountable to Scripture.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">God</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    We believe in one God, eternally existing in three persons: Father, Son, and Holy Spirit. Each person is fully God, distinct in person, equal in nature.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">Salvation by grace alone</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    Reformed theology is defined by its conviction that salvation is entirely God's work. We are saved by grace alone, through faith alone, in Christ alone — not by our own effort, merit, or decision. From beginning to end, God receives the glory for our salvation. This is what distinguishes Reformed theology from prosperity gospel, moralism, and any religion built on human achievement.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">What is the Westminster Confession of Faith?</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    The Westminster Confession of Faith is a summary of biblical doctrine written in 1647 and used by Presbyterian and Reformed churches worldwide for nearly 400 years. It covers everything from the doctrine of Scripture to the last things — not as a replacement for the Bible, but as a faithful summary of what the Bible teaches.
+    As an OPC church, we hold to the Westminster Confession and Catechisms as our confessional standard. You can read the full text at <a href="https://opc.org/wcf.html" class="text-[#C4A35A] hover:underline" target="_blank" rel="noopener">opc.org</a>.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">How we worship</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    Sunday worship at an OPC church is shaped by Scripture. You can expect careful, expository preaching that works through the Bible text by text. We sing psalms and hymns, celebrate the sacraments of baptism and the Lord's Supper, and follow a liturgy shaped by the pattern of Scripture rather than contemporary preference.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">How we're governed</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    We are a Presbyterian church, which means we're governed by elders — men ordained by the congregation to provide oversight, care, and accountability. We're also a connectional church, meaning local congregations are accountable to a broader assembly of elders. This structure protects the congregation and ensures no single person holds unchecked authority.
+    For more on what "Presbyterian" church government looks like day to day, see <a href="/presbyterian-church-maui/" class="text-[#C4A35A] hover:underline">Presbyterian Church Maui</a>.
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">How does OPC differ from other churches?</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-4">
+    <strong class="text-[#111318]">OPC vs PCA:</strong> Sister denominations, nearly identical theology. Someone from a PCA background will feel immediately at home.
+  </p>
+  <p class="text-[#5F5E5A] leading-relaxed mb-4">
+    <strong class="text-[#111318]">OPC vs PCUSA:</strong> Very different. The Presbyterian Church USA has departed from the historic Reformed confessions on key doctrinal questions. We are not affiliated with PCUSA.
+  </p>
+  <p class="text-[#5F5E5A] leading-relaxed mb-4">
+    <strong class="text-[#111318]">OPC vs generic evangelical:</strong> Reformed worship is more confessional, more historically rooted, and more liturgically structured than most contemporary evangelical churches. We don't have a worship band or a felt-needs sermon series — we have the Word and the sacraments.
+  </p>
+  <p class="text-[#5F5E5A] leading-relaxed mb-8">
+    <strong class="text-[#111318]">OPC vs Reformed Baptist:</strong> Very similar theology. The key differences are baptism (we baptize covenant children) and church government (Presbyterian vs congregational).
+  </p>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-4">New to Reformed theology?</h2>
+  <p class="text-[#5F5E5A] leading-relaxed mb-12">
+    Reformed theology has a learning curve, and that's okay. If you're new to these ideas, we'd encourage you to reach out — we'd love to walk through it with you. A few outside resources worth exploring: Ligonier Ministries (<a href="https://ligonier.org" class="text-[#C4A35A] hover:underline" target="_blank" rel="noopener">ligonier.org</a>), the OPC's own resources at <a href="https://opc.org" class="text-[#C4A35A] hover:underline" target="_blank" rel="noopener">opc.org</a>, and the book <em>Reformed Is Not Enough</em> by Douglas Wilson as a starting point for understanding confessional Christianity.
+  </p>
+
+  <!-- FAQ -->
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mt-10 mb-6">Common questions</h2>
+  <div class="space-y-8 mb-12">
+    {faqs.map(faq => (
+      <div class="border-t border-[#D3D1C7] pt-6">
+        <h3 class="font-serif text-lg font-bold text-[#1E2A3A] mb-2">{faq.question}</h3>
+        <p class="text-[#5F5E5A] leading-relaxed">{faq.answer}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="border-t border-[#D3D1C7] pt-10">
+    <p class="text-[#5F5E5A] mb-4">Want to learn more or get connected?</p>
+    <a href="/connect/" class="inline-block bg-[#C4A35A] text-[#1E2A3A] font-semibold px-6 py-3 rounded hover:bg-[#d4b36a] transition-colors">
+      Get connected &rarr;
+    </a>
+  </div>
+</PageLayout>

@@ -1,0 +1,65 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+---
+
+<PageLayout
+  title="Get Connected | [CHURCH NAME]"
+  description="Get connected with our Reformed church plant on Maui. Sign up to hear when services launch and be part of building this community from the beginning."
+  canonical="https://reformedchurchmaui.com/connect/"
+  h1="Get Connected"
+  breadcrumb={[{ name: 'Get Connected', url: 'https://reformedchurchmaui.com/connect/' }]}
+>
+  <p class="text-[#5F5E5A] text-base leading-relaxed mb-10">
+    We're forming community now, before our first service. If you're on Maui and interested in Reformed worship — or if you're moving to Maui and looking for a church home — we'd love to be in touch.
+  </p>
+
+  <!-- Formspree form -->
+  <form
+    action="https://formspree.io/f/mnjeoagy"
+    method="POST"
+    class="bg-[#EDE8DF] rounded-lg p-8 mb-12 max-w-lg"
+  >
+    <div class="mb-4">
+      <label for="firstName" class="block text-sm font-semibold text-[#1E2A3A] mb-1">First name</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        required
+        class="w-full px-4 py-3 rounded border border-[#D3D1C7] bg-white text-[#111318] text-sm focus:outline-none focus:ring-2 focus:ring-[#C4A35A]"
+      />
+    </div>
+    <div class="mb-6">
+      <label for="email" class="block text-sm font-semibold text-[#1E2A3A] mb-1">Email address</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        class="w-full px-4 py-3 rounded border border-[#D3D1C7] bg-white text-[#111318] text-sm focus:outline-none focus:ring-2 focus:ring-[#C4A35A]"
+      />
+    </div>
+    <button
+      type="submit"
+      class="w-full bg-[#C4A35A] text-[#1E2A3A] font-semibold text-sm px-6 py-3 rounded hover:bg-[#d4b36a] transition-colors"
+    >
+      Tell me more
+    </button>
+  </form>
+
+  <h2 class="font-serif text-2xl font-bold text-[#1E2A3A] mb-6">Other ways to connect</h2>
+  <ul class="space-y-4 text-[#5F5E5A]">
+    <li>
+      <span class="font-semibold text-[#111318]">Email:</span>
+      <a href="mailto:[CHRIS_EMAIL]" class="text-[#C4A35A] hover:underline ml-1">[CHRIS_EMAIL]</a>
+    </li>
+    <li>
+      <span class="font-semibold text-[#111318]">OPC directory:</span>
+      <a href="https://opc.org/locator.html" class="text-[#C4A35A] hover:underline ml-1" target="_blank" rel="noopener">Find OPC churches near you</a>
+    </li>
+    <li>
+      <span class="font-semibold text-[#111318]">Sister congregation on Oahu:</span>
+      <a href="https://redeemerhawaii.org" class="text-[#C4A35A] hover:underline ml-1" target="_blank" rel="noopener">Redeemer OPC, Waipahu</a>
+    </li>
+  </ul>
+</PageLayout>

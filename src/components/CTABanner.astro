@@ -1,0 +1,63 @@
+---
+interface Props {
+  eyebrow?: string;
+  heading: string;
+  body: string;
+  formId?: string;
+  linkLabel?: string;
+  linkHref?: string;
+  dark?: boolean;
+}
+
+const { eyebrow, heading, body, formId, linkLabel, linkHref, dark = false } = Astro.props;
+
+const bgClass = dark ? 'bg-[#1E2A3A]' : 'bg-[#F5F0E8]';
+const headingClass = dark ? 'text-[#F5F0E8]' : 'text-[#1E2A3A]';
+const bodyClass = dark ? 'text-[#B4B2A9]' : 'text-[#5F5E5A]';
+---
+
+<section class={`${bgClass} py-20 px-6`}>
+  <div class="max-w-2xl mx-auto text-center">
+    {eyebrow && (
+      <p class="text-[#C4A35A] text-xs font-semibold uppercase tracking-widest mb-4">{eyebrow}</p>
+    )}
+    <h2 class={`font-serif text-3xl font-bold mb-4 ${headingClass}`}>{heading}</h2>
+    <p class={`text-base mb-8 ${bodyClass}`}>{body}</p>
+
+    {formId ? (
+      <form
+        action={`https://formspree.io/f/${formId}`}
+        method="POST"
+        class="flex flex-col sm:flex-row gap-3 justify-center"
+      >
+        <input
+          type="text"
+          name="firstName"
+          placeholder="First name"
+          required
+          class="px-4 py-3 rounded border border-[#D3D1C7] bg-white text-[#111318] text-sm flex-1 max-w-xs focus:outline-none focus:ring-2 focus:ring-[#C4A35A]"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email address"
+          required
+          class="px-4 py-3 rounded border border-[#D3D1C7] bg-white text-[#111318] text-sm flex-1 max-w-xs focus:outline-none focus:ring-2 focus:ring-[#C4A35A]"
+        />
+        <button
+          type="submit"
+          class="bg-[#C4A35A] text-[#1E2A3A] font-semibold text-sm px-6 py-3 rounded hover:bg-[#d4b36a] transition-colors whitespace-nowrap"
+        >
+          Tell me more
+        </button>
+      </form>
+    ) : linkHref && linkLabel ? (
+      <a
+        href={linkHref}
+        class="inline-block bg-[#C4A35A] text-[#1E2A3A] font-semibold px-8 py-3 rounded hover:bg-[#d4b36a] transition-colors"
+      >
+        {linkLabel}
+      </a>
+    ) : null}
+  </div>
+</section>

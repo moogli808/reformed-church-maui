@@ -10,10 +10,10 @@ Website: https://reformedchurchmaui.com
 We are planting a confessional Presbyterian church on Maui — elder-led, connectional, part of the Orthodox Presbyterian Church.
 
 ## What Makes a Church Presbyterian?
-"Presbyterian" describes how a church is governed. Presbyterian churches are led by a session of ordained elders rather than a single pastor or congregational vote. Local churches are also connectional — accountable to a broader assembly (presbytery) of elders.
+"Presbyterian" describes how a church is governed. A Presbyterian church is led by its session — the minister(s) and ruling elders together — who give oversight and provide pastoral care. Local churches are also part of a broader assembly of elders, called a presbytery, providing accountability beyond the local church.
 
 ## Are All Presbyterian Churches the Same?
-No. The OPC and PCA hold to the historic Westminster Standards. The PCUSA has departed from them. We are OPC — not affiliated with PCUSA.
+Not exactly — there's a range of Presbyterian and Reformed denominations, each with its own history and practice. The OPC is part of NAPARC (the North American Presbyterian and Reformed Council), a fellowship that includes churches like the PCA and Reformed-but-not-Presbyterian churches like the URC.
 
 ## What to Expect as a Member
 Real accountability in both directions — elders who know you personally, and a congregation with a voice through its session. New members meet with elders before joining.

@@ -13,10 +13,10 @@ Not yet — but that is changing. We are planting the first confessional Reforme
 Maui has evangelical, Catholic, and mainline Protestant churches — but nothing confessional Reformed has existed here until now.
 
 ## What Is Changing
-Maui OPC is that church. Currently in church plant phase. Services have not yet begun.
+Maui OPC is that church. Services have not yet begun.
 
 ## When Do We Launch?
-We are in the church plant phase, gathering a community of interested people and preparing for our launch. Sign up to be notified.
+We are gathering people interested in Reformed worship on Maui and will announce our launch date by email. Sign up to be the first to know.
 
 ## FAQ
 Q: Is there an OPC church on Maui?

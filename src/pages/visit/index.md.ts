@@ -7,19 +7,22 @@ A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
 ## Status
-We are currently in the church plant phase — services have not yet begun. We are forming community and will announce our first service date via email.
+Services have not yet begun. We are gathering people who are interested in Reformed worship on Maui and will announce our first service date by email.
 
 ## What to Expect (When Services Begin)
 - A call to worship opening the service
 - Singing of psalms and hymns
 - Prayer
-- Scripture reading
-- Preaching from the Bible text
-- The Lord's Supper (celebrated regularly)
+- Reading of Scripture
+- Preaching from the Bible
+- The sacraments — baptism and the Lord's Supper, administered as appropriate
 - Benediction
 
 ## Who Should Come
 Everyone is welcome. If you are looking for confessional Reformed worship on Maui, this is for you.
+
+## Families and Children
+Families with children are welcome. We'll share more about children's ministry as those plans take shape.
 
 ## Contact
 Email: chrishartshorn5@gmail.com

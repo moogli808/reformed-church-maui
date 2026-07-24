@@ -7,10 +7,10 @@ A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
 ## Status
-Sermons will be posted here once services begin. We are currently in the church plant phase.
+Sermons will be posted here once services begin. We are gathering interest and will announce our launch date by email.
 
 ## About Our Preaching
-We practice expository preaching — working carefully through Scripture text by text, grounded in the whole counsel of God.
+We practice careful preaching — working through Scripture text by text, grounded in the whole counsel of God.
 
 ## Contact
 Email: chrishartshorn5@gmail.com

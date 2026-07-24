@@ -10,7 +10,7 @@ Website: https://reformedchurchmaui.com
 We are planting the first confessional Reformed church on the island of Maui, Hawaii — a mission work of the Orthodox Presbyterian Church (OPC).
 
 ## Why This Church
-There is no confessional Reformed church on Maui. The nearest OPC congregation is Redeemer OPC on Oahu. We are planting a church grounded in the Westminster Standards, committed to biblical worship, and rooted in the Maui community.
+There's no confessional Reformed church on Maui yet. We're glad to bring the historic Christian faith here and invite others to join us. The nearest OPC congregation is Redeemer OPC on Oahu. We are planting a church grounded in the Westminster Standards, committed to biblical worship, and rooted in the Maui community.
 
 ## What We Believe
 We hold to the Westminster Confession of Faith and the historic Reformed faith. We believe in the sovereignty of God in salvation, the authority of Scripture alone, and worship shaped by the Bible.

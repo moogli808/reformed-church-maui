@@ -22,25 +22,23 @@ We are saved by grace alone, through faith alone, in Christ alone. From beginnin
 The Westminster Confession of Faith (1647) is our confessional standard. Full text: https://opc.org/wcf.html
 
 ## Worship
-Expository preaching, psalms and hymns, baptism and the Lord's Supper, Scripture-shaped liturgy.
+Careful preaching that works through the Bible text by text, psalms and hymns, baptism and the Lord's Supper, Scripture-shaped liturgy.
 
 ## Church Government
-Presbyterian — governed by ordained elders, accountable to a broader assembly (presbytery).
+Presbyterian — governed by elders who together form a session, accountable to a broader assembly of elders called a presbytery.
 
-## OPC vs Other Denominations
-- OPC vs PCA: Sister denominations, nearly identical theology.
-- OPC vs PCUSA: Very different. PCUSA has departed from historic Reformed confessions. We are not affiliated.
-- OPC vs Reformed Baptist: Similar theology; key differences are baptism and church government.
+## New to Reformed Theology?
+Resources: Ligonier Ministries (ligonier.org), OPC resources (opc.org), Heidelblog (heidelblog.net), and the historic Reformed creeds and confessions themselves.
 
 ## FAQ
 Q: Is the OPC the same as the Presbyterian Church?
-A: There are several Presbyterian denominations. OPC and PCA are confessional Reformed; PCUSA is mainline and has departed from historic doctrine.
+A: Not exactly. There are a number of Presbyterian and Reformed denominations, each with its own history. The OPC is part of NAPARC (the North American Presbyterian and Reformed Council), a fellowship of confessional Reformed and Presbyterian denominations that includes churches like the PCA, as well as Reformed churches that aren't Presbyterian in government, like the URC. We'd be glad to talk through where we fit if you have questions.
 
 Q: Do you have to be Reformed to attend?
 A: Not at all. Visitors are always welcome.
 
 Q: What Bible translation do you use?
-A: OPC churches typically use the ESV or NASB. We will confirm once services begin.
+A: OPC churches typically use the ESV.
 
 Q: Is Reformed theology the same as Calvinist?
 A: Yes, essentially. Both refer to the theological tradition from the Protestant Reformation.

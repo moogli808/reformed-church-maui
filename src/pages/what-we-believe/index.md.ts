@@ -32,7 +32,7 @@ Resources: Ligonier Ministries (ligonier.org), OPC resources (opc.org), Heidelbl
 
 ## FAQ
 Q: Is the OPC the same as the Presbyterian Church?
-A: Not exactly. There are a number of Presbyterian and Reformed denominations, each with its own history. The OPC is part of NAPARC (the North American Presbyterian and Reformed Council), a fellowship of confessional Reformed and Presbyterian denominations that includes churches like the PCA, as well as Reformed churches that aren't Presbyterian in government, like the URC. We'd be glad to talk through where we fit if you have questions.
+A: Not exactly. There are a number of Presbyterian and Reformed denominations, each with its own history. The OPC is part of NAPARC (the North American Presbyterian and Reformed Council), a fellowship of confessional Reformed and Presbyterian denominations that includes churches like the PCA, as well as Reformed churches from a different tradition and terminology, like the URC, which is governed similarly through its own consistories, classes, and synod. We'd be glad to talk through where we fit if you have questions.
 
 Q: Do you have to be Reformed to attend?
 A: Not at all. Visitors are always welcome.
@@ -41,7 +41,7 @@ Q: What Bible translation do you use?
 A: OPC churches typically use the ESV.
 
 Q: Is Reformed theology the same as Calvinist?
-A: Yes, essentially. Both refer to the theological tradition from the Protestant Reformation.
+A: Yes, basically. Both refer to the theological tradition from the Protestant Reformation.
 
 ## Contact
 Email: chrishartshorn5@gmail.com

@@ -14,12 +14,13 @@ const { eyebrow, heading, body, formId, linkLabel, linkHref, dark = false } = As
 const bgClass = dark ? 'bg-[#1E2A3A]' : 'bg-[#F5F0E8]';
 const headingClass = dark ? 'text-[#F5F0E8]' : 'text-[#1E2A3A]';
 const bodyClass = dark ? 'text-[#B4B2A9]' : 'text-[#5F5E5A]';
+const eyebrowClass = dark ? 'text-[#C4A35A]' : 'text-[#7A5F2A]';
 ---
 
 <section class={`${bgClass} py-20 px-6`}>
   <div class="max-w-2xl mx-auto text-center">
     {eyebrow && (
-      <p class="text-[#C4A35A] text-xs font-semibold uppercase tracking-widest mb-4">{eyebrow}</p>
+      <p class={`${eyebrowClass} text-xs font-semibold uppercase tracking-widest mb-4`}>{eyebrow}</p>
     )}
     <h2 class={`font-serif text-3xl font-bold mb-4 ${headingClass}`}>{heading}</h2>
     <p class={`text-base mb-8 ${bodyClass}`}>{body}</p>

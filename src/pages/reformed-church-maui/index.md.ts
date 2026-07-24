@@ -2,7 +2,7 @@ export const prerender = true;
 
 export async function GET() {
   const content = `# Reformed Church on Maui, Hawaii
-[CHURCH NAME] · Maui, Hawaii
+Maui OPC · Maui, Hawaii
 A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
@@ -19,7 +19,7 @@ Maui has evangelical churches, Catholic parishes, and mainline congregations —
 Mission work of the Orthodox Presbyterian Church. Church plant phase — services not yet begun. Gathering a community of people interested in Reformed worship on Maui.
 
 ## Contact
-Email: [CHRIS_EMAIL]
+Email: chrishartshorn5@gmail.com
 Connect: https://reformedchurchmaui.com/connect/
 
 ## Related Pages

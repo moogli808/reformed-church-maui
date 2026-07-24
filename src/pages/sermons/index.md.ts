@@ -2,7 +2,7 @@ export const prerender = true;
 
 export async function GET() {
   const content = `# Sermons
-[CHURCH NAME] · Maui, Hawaii
+Maui OPC · Maui, Hawaii
 A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
@@ -13,7 +13,7 @@ Sermons will be posted here once services begin. We are currently in the church 
 We practice expository preaching — working carefully through Scripture text by text, grounded in the whole counsel of God.
 
 ## Contact
-Email: [CHRIS_EMAIL]
+Email: chrishartshorn5@gmail.com
 Connect: https://reformedchurchmaui.com/connect/
 `;
   return new Response(content, {

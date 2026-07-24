@@ -2,7 +2,7 @@ export const prerender = true;
 
 export async function GET() {
   const content = `# Presbyterian Church on Maui, Hawaii
-[CHURCH NAME] · Maui, Hawaii
+Maui OPC · Maui, Hawaii
 A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
@@ -23,7 +23,7 @@ We are currently the only confessional Presbyterian church plant on Maui.
 Full story: https://reformedchurchmaui.com/reformed-church-maui/
 
 ## Contact
-Email: [CHRIS_EMAIL]
+Email: chrishartshorn5@gmail.com
 Connect: https://reformedchurchmaui.com/connect/
 `;
   return new Response(content, {

@@ -2,7 +2,7 @@ export const prerender = true;
 
 export async function GET() {
   const content = `# Plan Your Visit
-[CHURCH NAME] · Maui, Hawaii
+Maui OPC · Maui, Hawaii
 A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
@@ -22,7 +22,7 @@ We are currently in the church plant phase — services have not yet begun. We a
 Everyone is welcome. If you are looking for confessional Reformed worship on Maui, this is for you.
 
 ## Contact
-Email: [CHRIS_EMAIL]
+Email: chrishartshorn5@gmail.com
 Connect: https://reformedchurchmaui.com/connect/
 `;
   return new Response(content, {

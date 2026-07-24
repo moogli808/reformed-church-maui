@@ -2,7 +2,7 @@ export const prerender = true;
 
 export async function GET() {
   const content = `# A Reformed Church Coming to Maui, Hawaii
-[CHURCH NAME] · Maui, Hawaii
+Maui OPC · Maui, Hawaii
 A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
@@ -19,7 +19,7 @@ We hold to the Westminster Confession of Faith and the historic Reformed faith. 
 Church plant phase — services have not yet begun. We are gathering a community of people interested in Reformed worship on Maui.
 
 ## Contact
-Email: [CHRIS_EMAIL]
+Email: chrishartshorn5@gmail.com
 Connect: https://reformedchurchmaui.com/connect/
 
 ## Links

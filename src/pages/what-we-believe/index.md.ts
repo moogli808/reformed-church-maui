@@ -2,7 +2,7 @@ export const prerender = true;
 
 export async function GET() {
   const content = `# What We Believe
-[CHURCH NAME] · Maui, Hawaii
+Maui OPC · Maui, Hawaii
 A mission work of the Orthodox Presbyterian Church
 Website: https://reformedchurchmaui.com
 
@@ -46,7 +46,7 @@ Q: Is Reformed theology the same as Calvinist?
 A: Yes, essentially. Both refer to the theological tradition from the Protestant Reformation.
 
 ## Contact
-Email: [CHRIS_EMAIL]
+Email: chrishartshorn5@gmail.com
 Connect: https://reformedchurchmaui.com/connect/
 `;
   return new Response(content, {

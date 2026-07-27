@@ -23,7 +23,7 @@ Q: Is there an OPC church on Maui?
 A: Not yet, but we are planting one now — the first confessional OPC mission work on the island.
 
 Q: Where is the nearest OPC church to Maui right now?
-A: Redeemer OPC in Waipahu, Oahu has been the nearest OPC congregation. We are planting the first one on Maui itself. Website: https://redeemerhawaii.org
+A: Covenant Kapolei on Oahu has been the nearest OPC congregation. We are planting the first one on Maui itself. Website: https://covenantkapolei.com
 
 Q: Can I get involved before the church officially launches?
 A: Yes — we are building community now, before our first service. Reach out through the connect page.

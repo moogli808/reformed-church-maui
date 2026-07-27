@@ -17,8 +17,8 @@ We are a mission work of the Orthodox Presbyterian Church (OPC), founded in 1936
 Learn more: https://opc.org
 
 ## Our Connection to Oahu
-The nearest OPC congregation to Maui is Redeemer OPC in Waipahu, Oahu.
-Redeemer OPC: https://redeemerhawaii.org
+The nearest OPC congregation to Maui is Covenant Kapolei on Oahu.
+Covenant Kapolei: https://covenantkapolei.com
 
 ## Contact
 Email: chrishartshorn5@gmail.com

@@ -13,7 +13,7 @@ We are forming community now, before our first service. If you are on Maui and i
 - Email: chrishartshorn5@gmail.com
 - Online form: https://reformedchurchmaui.com/connect/
 - OPC church locator: https://opc.org/locator.html
-- Sister congregation on Oahu: Redeemer OPC, Waipahu — https://redeemerhawaii.org
+- Sister congregation on Oahu: Covenant Kapolei — https://covenantkapolei.com
 
 ## Status
 Church plant phase. Services have not yet begun. Sign up to be notified when we launch.

@@ -3,7 +3,7 @@ import tailwind from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://reformedchurchmaui.com',
+  site: 'https://www.reformedchurchmaui.com',
   trailingSlash: 'always',
   vite: { plugins: [tailwind()] },
   integrations: [
